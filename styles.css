@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    color: white; 
+    color: #ffffff;
 }
 
 .instructions {
@@ -46,6 +46,11 @@ h1 {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight enlargement on hover */
 }
 
 .card img {
@@ -60,8 +65,8 @@ h1 {
 }
 
 #start-game {
-    background-color: #4caf50;
-    color: white;
+    background-color: #e50914; /* Netflix signature red */
+    color: #ffffff;
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
@@ -71,6 +76,6 @@ h1 {
 }
 
 #start-game:hover {
-    background-color: #43a047; /* Darker on hover */
+    background-color: #b20710; /* Darker red on hover */
     transform: scale(1.05); /* Slightly enlarges on hover */
 }
